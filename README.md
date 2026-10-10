@@ -64,3 +64,24 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+
+# debugging-app-practice
+
+## 概要
+COACHTECH 教材 Tutorial 10-4「デバッグ ハンズオン演習」で作成した成果物です。
+バグが含まれたユーザー登録機能をデバッグし、正しく動作するように修正しました。
+
+## 使用技術
+- PHP 8.x
+- Laravel 10.x
+- デバッグツール（`dd()`, `dump()`, `Log` ファサード）
+
+## 学んだこと
+- エラーメッセージから問題箇所を特定する読み解き方
+- dd() と Log::info() を使い分けたデバッグの進め方
+- Mass Assignment エラーと $fillable の役割
+ 
+## 動作確認
+- フォームを送信するとエラーが発生する → 正常に登録できるようにする
+- ユーザー一覧ページに登録したユーザーが表示される
